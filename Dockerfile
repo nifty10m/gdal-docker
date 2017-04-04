@@ -1,5 +1,5 @@
 FROM geodata/gdal
-MAINTAINER Marc Harter <wavded@gmail.com
+MAINTAINER Jörg Herbst <joerg.herbst@10m.de>
 
 RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get -y update
