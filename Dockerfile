@@ -1,4 +1,4 @@
-FROM geodata/gdal
+FROM geodata/gdal:2.1.3
 MAINTAINER Jörg Herbst <joerg.herbst@10m.de>
 
 RUN add-apt-repository -y ppa:chris-lea/node.js
